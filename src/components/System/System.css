@@ -1,0 +1,45 @@
+.system__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+
+     }
+
+}
+
+.system__img{
+    @media (max-width: 700px) {
+        order: 3;
+        
+     }
+}
+
+.system__about{
+    display: flex;
+   flex-direction: column;
+   gap: 40px;
+
+    h2{
+        max-width: 650px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 64px;
+text-transform: uppercase;
+    }
+    p{
+        max-width: 400px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+.arrow{
+    width: max-content;
+
+    @media (max-width: 700px) {
+        order: 2;
+     }
+}
